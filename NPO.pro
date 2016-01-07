@@ -12,5 +12,8 @@ TARGET	=	NPO
 
 QMAKE_CXXFLAGS	+=	-std=c++11
 
-SOURCES	+=	
-HEADERS	+=	
+SOURCES	+= \	
+    npo.cpp \
+    main.cpp
+HEADERS	+= \	
+    npo.h
