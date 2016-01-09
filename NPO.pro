@@ -6,7 +6,7 @@
 
 TEMPLATE	=	app
 
-QT	+=	core widgets 
+QT	+=	core widgets gui
 
 TARGET	=	NPO
 
@@ -14,6 +14,10 @@ QMAKE_CXXFLAGS	+=	-std=c++11
 
 SOURCES	+= \	
     npo.cpp \
-    main.cpp
+    main.cpp \
+    result.cpp \
+    resultitem.cpp
 HEADERS	+= \	
-    npo.h
+    npo.h \
+    result.h \
+    resultitem.h
