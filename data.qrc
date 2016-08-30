@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>date.json</file>
+        <file>url.json</file>
+    </qresource>
+</RCC>
