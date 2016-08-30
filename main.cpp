@@ -1,11 +1,11 @@
+#include "window.h"
 #include <QApplication>
-#include "result.h"
-#include "npo.h"
 
-int main(int argc,char*argv[])
+int main(int argc, char *argv[])
 {
-    QApplication app(argc,argv);
-    NPO npo;
-    npo.show();
-    return app.exec();
+    QApplication a(argc, argv);
+    Window w;
+    w.show();
+
+    return a.exec();
 }
